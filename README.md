@@ -46,5 +46,5 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 I will simply click on the '2D Nav Goal' decide the goal position and orientation and the robot will autonomously reach the goal state
 
-
+https://user-images.githubusercontent.com/25144777/124664614-61ba2200-deb4-11eb-8494-5afddd94f524.mp4
 
