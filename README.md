@@ -21,12 +21,16 @@ $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 ```
 
+### after launching both simulations
+![VirtualBoxVM_yqPc7aAfFo](https://user-images.githubusercontent.com/25144777/124663204-7695b600-deb2-11eb-9228-0fcfbf136174.png)
+
 
 ## Pose estimation
 I used the '2D Pose Estimate' functionality a couple of times to manually input the robot's starting position and orientation until what the LDS sensor picked up lined up with the map
 
 ### robot after manually inputting its location on the map
-![VirtualBoxVM_fpbzuCNWvh](https://user-images.githubusercontent.com/25144777/124659485-b017f280-dead-11eb-8fe5-a40b930928e0.png)
+![VirtualBoxVM_d5kDhwT1Qt](https://user-images.githubusercontent.com/25144777/124663416-b8bef780-deb2-11eb-9e76-76244c987eb3.png)
+
 
 I then ran the keyboard teleoperation node and controlled the robot for a bit, so it has a more precise understanding of its environment and the obstacles around it
 
@@ -35,7 +39,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
 ### robot after moving it for a bit
-![VirtualBoxVM_Xo3CZyOc7I](https://user-images.githubusercontent.com/25144777/124660361-c70b1480-deae-11eb-88bb-6c4ee4c83c92.png)
+![VirtualBoxVM_a58Y2xp8Md](https://user-images.githubusercontent.com/25144777/124663747-279c5080-deb3-11eb-95fa-bfa037977864.png)
 
 
 ## autonomous navigation
