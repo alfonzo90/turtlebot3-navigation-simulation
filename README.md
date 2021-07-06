@@ -35,6 +35,7 @@ I used the '2D Pose Estimate' functionality a couple of times to manually input 
 I then ran the keyboard teleoperation node and controlled the robot for a bit, so it has a more precise understanding of its environment and the obstacles around it
 
 ```
+$ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
